@@ -5,6 +5,7 @@ import Education from './components/Education/Education'
 // import FindMe from './components/FindMe/FindMe'
 import Footer from './components/Footer/Footer'
 import Language from './components/Language/Language'
+import MySkills from './components/MySkills/MySkills'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <h2 className='text-center text-6xl'>Portfolio</h2>
       <Navbar></Navbar>
       <Education></Education>
+      <MySkills></MySkills>
       <Language></Language>
       <Contact></Contact>
       {/* <FindMe></FindMe> */}
