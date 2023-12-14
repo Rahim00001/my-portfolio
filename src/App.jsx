@@ -1,5 +1,6 @@
 
 import './App.css'
+import AboutMe from './components/AboutMe/AboutMe'
 import Contact from './components/Contact/Contact'
 import Education from './components/Education/Education'
 // import FindMe from './components/FindMe/FindMe'
@@ -15,6 +16,7 @@ function App() {
     <>
       <h2 className='text-center text-6xl'>Portfolio</h2>
       <Navbar></Navbar>
+      <AboutMe></AboutMe>
       <Education></Education>
       <MySkills></MySkills>
       <Language></Language>
