@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import Language from './components/Language/Language'
 import MySkills from './components/MySkills/MySkills'
 import Navbar from './components/Navbar/Navbar'
+import Projects from './components/Projects/Projects'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Education></Education>
       <MySkills></MySkills>
       <Language></Language>
+      <Projects></Projects>
       <Contact></Contact>
       {/* <FindMe></FindMe> */}
       <Footer></Footer>
