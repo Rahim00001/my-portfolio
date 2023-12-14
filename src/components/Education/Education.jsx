@@ -1,7 +1,7 @@
 import { FaBookOpen, FaLandmark, FaLaptopCode, FaUserGraduate } from "react-icons/fa";
 const Education = () => {
     return (
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-lg mx-auto">
             <h1 className="text-center text-6xl font-bold mb-9">Education</h1>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>

@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutMe from './components/AboutMe/AboutMe'
+import Banner from './components/Banner/Banner'
 import Contact from './components/Contact/Contact'
 import Education from './components/Education/Education'
 // import FindMe from './components/FindMe/FindMe'
@@ -14,8 +15,8 @@ function App() {
 
   return (
     <>
-      <h2 className='text-center text-6xl'>Portfolio</h2>
       <Navbar></Navbar>
+      <Banner></Banner>
       <AboutMe></AboutMe>
       <Education></Education>
       <MySkills></MySkills>
