@@ -1,7 +1,7 @@
 import './MySkills.css'
 const MySkills = () => {
     return (
-        <div>
+        <div className='px-3'>
             <h4 className='text-center text-4xl font-bold'>My Skills</h4>
             <h1 className='text-center text-6xl font-bold my-4'>Technologies.</h1>
             <div id="tech" className=" py-8 max-w-screen-xl mx-auto border-4 flex flex-wrap gap-5 justify-center">

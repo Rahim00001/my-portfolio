@@ -4,8 +4,8 @@ import { BsSendFill } from "react-icons/bs";
 const Contact = () => {
     return (
         <div>
-            <div className="lg:mx-96">
-                <div className="hero-content flex-col-reverse lg:flex-row justify-center items-center gap-16 lg:gap-40">
+            <div className="lg:mx-96 my-20">
+                <div className="hero-content flex-col-reverse md:flex-row justify-center items-center gap-16 lg:gap-[450px]">
                     <FindMe></FindMe>
                     <div>
                         <h1 className="uppercase text-2xl mb-2 font-bold text-slate-600">Get In Touch</h1>

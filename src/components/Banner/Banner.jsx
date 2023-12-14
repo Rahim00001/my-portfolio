@@ -5,7 +5,7 @@ import { FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import resume from "../../../public/Resume.pdf"
 const Banner = () => {
     return (
-        <div className="flex flex-col md:flex-col-reverse lg:flex-row justify-center items-center">
+        <div className="h-[80vh] flex mt-56 md:mt-32 lg:mt-0 flex-col-reverse lg:flex-row justify-center items-center">
             <div className="lg:w-1/2 flex justify-center">
                 <div className="ml-5 md:ml-10 lg:ml-20">
                     <p className="uppercase text-3xl font-semibold">Hello, I'm</p>

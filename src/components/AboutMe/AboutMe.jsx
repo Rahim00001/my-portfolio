@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 import about from "../../../public/about.json"
 const AboutMe = () => {
     return (
-        <div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto items-center">
+        <div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto my-10 px-5 items-center">
             <div className="lg:w-1/2 flex justify-center">
                 <Lottie className="max-w-md" animationData={about}></Lottie>
             </div>
