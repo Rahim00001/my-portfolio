@@ -6,7 +6,10 @@ const Projects = () => {
         <div id="projects" className="max-w-screen-xl mx-auto mt-20 px-5">
             <h1 className="text-center text-6xl font-bold my-8">Recent Projects</h1>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                <div className="card  card-compact bg-base-100 shadow-xl">
+                <div className="card  card-compact bg-base-100 shadow-xl"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <figure><img className="w-full h-60" src={StudyImg} alt="StudySync Img" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold">StudySync</h2>
@@ -18,7 +21,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  card-compact bg-base-100 shadow-xl">
+                <div className="card  card-compact bg-base-100 shadow-xl"
+                    data-aos="fade-up">
                     <figure><img className="w-full h-60" src={StayImg} alt="StayZen Img" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold">StayZen</h2>
@@ -30,7 +34,10 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  card-compact bg-base-100 shadow-xl">
+                <div className="card  card-compact bg-base-100 shadow-xl"
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <figure><img className="w-full h-60" src={DriveImg} alt="DriveNest Img" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold">DriveNest</h2>

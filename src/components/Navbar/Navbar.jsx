@@ -6,14 +6,11 @@ const Navbar = () => {
         <li><a className="text-lg lg:text-2xl" href="#skills">Skills</a></li>
         <li><a className="text-lg lg:text-2xl" href="#contact">Contact</a></li>
 
-        {/* <li><a className="text-lg lg:text-2xl" to='#'>About</a></li>
-        <li><a className="text-lg lg:text-2xl" to='#'>Projects</a></li>
-        <li><a className="text-lg lg:text-2xl" to='#'>Skills</a></li>
-        <li><a className="text-lg lg:text-2xl" to='#'>Contact</a></li> */}
+        {/* <li><a className="text-lg lg:text-2xl" to='#'>About</a></li> */}
     </>
     return (
         <div>
-            <div className="navbar bg-base-100 lg:px-20">
+            <div className="navbar max-w-screen-xl mx-auto bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

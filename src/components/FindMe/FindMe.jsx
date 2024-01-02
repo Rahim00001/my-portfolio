@@ -4,7 +4,10 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 
 const FindMe = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-1 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-5"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
             <div className="card w-72 bg-base-content text-neutral-content">
                 <div className="card-body items-center text-center">
                     <h2 className="text-4xl"><FaMapLocation /></h2>
