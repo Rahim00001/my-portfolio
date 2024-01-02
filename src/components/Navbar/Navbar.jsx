@@ -1,10 +1,15 @@
 
 const Navbar = () => {
     const navlinks = <>
-        <li><a className="text-lg lg:text-2xl" to='#'>About</a></li>
+        <li><a className="text-lg lg:text-2xl" href="#about">About</a></li>
+        <li><a className="text-lg lg:text-2xl" href="#projects">Projects</a></li>
+        <li><a className="text-lg lg:text-2xl" href="#skills">Skills</a></li>
+        <li><a className="text-lg lg:text-2xl" href="#contact">Contact</a></li>
+
+        {/* <li><a className="text-lg lg:text-2xl" to='#'>About</a></li>
         <li><a className="text-lg lg:text-2xl" to='#'>Projects</a></li>
         <li><a className="text-lg lg:text-2xl" to='#'>Skills</a></li>
-        <li><a className="text-lg lg:text-2xl" to='#'>Contact</a></li>
+        <li><a className="text-lg lg:text-2xl" to='#'>Contact</a></li> */}
     </>
     return (
         <div>

@@ -2,7 +2,7 @@ import TypewriterComponent from "typewriter-effect";
 import Lottie from "lottie-react";
 import banner from "../../../public/banner.json"
 import { FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
-import resume from "../../../public/Resume.pdf"
+import resume from "../../../public/Kamrul_Rahim_resume.pdf"
 const Banner = () => {
     return (
         <div className="h-[80vh] flex mt-56 md:mt-32 lg:mt-0 flex-col-reverse lg:flex-row justify-center items-center">
@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="text-4xl">
                         <TypewriterComponent
                             options={{
-                                strings: ['React Developer', 'Javascript Developer', 'Web Developer', 'Programmer'],
+                                strings: ['Front-End Developer', 'React Developer', 'MERN Developer', 'Programmer'],
                                 autoStart: true,
                                 loop: true,
                             }}

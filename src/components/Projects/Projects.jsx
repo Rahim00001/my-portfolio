@@ -1,7 +1,7 @@
 
 const Projects = () => {
     return (
-        <div className="max-w-screen-xl mx-auto mt-20 px-5">
+        <div id="projects" className="max-w-screen-xl mx-auto mt-20 px-5">
             <h1 className="text-center text-6xl font-bold my-8">Recent Projects</h1>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div className="card  card-compact bg-base-100 shadow-xl">
