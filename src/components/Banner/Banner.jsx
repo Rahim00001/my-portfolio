@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="text-4xl">
                         <TypewriterComponent
                             options={{
-                                strings: ['Front-End Developer', 'React Developer', 'MERN Developer', 'Programmer'],
+                                strings: ['Front-End Developer', 'React Developer', 'MERN Stack Developer', 'Programmer'],
                                 autoStart: true,
                                 loop: true,
                             }}
